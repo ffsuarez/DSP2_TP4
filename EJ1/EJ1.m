@@ -21,3 +21,6 @@ clc,clear all,close all,
  
  figure,subplot(1,2,1),mesh(log_m_IC),title('Transform Fourier Centralizada'),
  subplot(1,2,2),mesh(a_I),title('Fase Transf Fourier Centralizada');
+ 
+ figure,subplot(1,2,1),mesh(log(1+abs(I))),title('Transf Fourier No Centralizada');
+ subplot(1,2,2),mesh(angle(I)),title('Ang Transf Fourier No Centralizada')
